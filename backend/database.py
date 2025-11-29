@@ -6,10 +6,10 @@ import os
 # SQLite database URL
 DATABASE_URL = "sqlite:///./habit_coach.db"
 
-# Create SQLAlchemy engine
+
 engine = create_engine(
     DATABASE_URL, 
-    connect_args={"check_same_thread": False}  # Needed for SQLite
+    connect_args={"check_same_thread": False}  
 )
 
 # Create SessionLocal class
@@ -26,3 +26,4 @@ def get_db():
 def create_tables():
     """Create all database tables"""
     Base.metadata.create_all(bind=engine)
+
