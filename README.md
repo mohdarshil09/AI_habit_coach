@@ -4,8 +4,8 @@ A modern web application that combines React frontend with FastAPI backend to pr
 
 ## 🎯 Features
 
-- **AI-Powered Chat Interface**: Chat with an intelligent habit coach powered by OpenAI GPT
-- **Goal Tracking**: Set and track daily/weekly goals with visual progress indicators
+- **AI-Powered Chat Interface**: Chat with an intelligent habit coach powered by OpenAI  GPT
+- **Goal Tracking**: Set and track daily/weekly goals with visual progress indicators  
 - **Motivational Quotes**: Get daily motivation from AI-generated quotes
 - **Persistent Storage**: Messages and goals are saved locally using localStorage
 - **Modern UI**: Beautiful, responsive design with Tailwind CSS
@@ -184,3 +184,4 @@ This project is open source and available under the MIT License.
 ---
 
 **Built with ❤️ using React, FastAPI, and OpenAI**
+
